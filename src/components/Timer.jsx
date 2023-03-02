@@ -43,7 +43,7 @@ input:hover{
 `;
 
 
-export default function Timer({miliseconds, seconds, minutes, hours, changeSeconds, changeMinutes, changeHours}) {
+export default function Timer({milliseconds, seconds, minutes, hours, changeSeconds, changeMinutes, changeHours}) {
   return (
     <TimerWrapper>
       <BsStopwatch className="stop-watch " />
@@ -61,7 +61,7 @@ export default function Timer({miliseconds, seconds, minutes, hours, changeSecon
       </div>{" "}
       <div className="d-flex flex-column">
         <label>ms</label>
-        <input value={miliseconds} />
+        <input value={milliseconds} />
       </div>{" "}
     </TimerWrapper>
   );
