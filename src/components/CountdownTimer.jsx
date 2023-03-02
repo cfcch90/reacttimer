@@ -13,7 +13,7 @@ const [isRunning,setIsRunning] = useState(null);
 
 const [showEndScreen, setShowEndScreen] = useState({
   show: false,
-  message: "Your time is up",
+  message: "WardWiz",
 });
 useEffect(() => {
 let interval;
