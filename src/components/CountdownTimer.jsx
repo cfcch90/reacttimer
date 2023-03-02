@@ -13,7 +13,7 @@ const [isRunning,setIsRunning] = useState(null);
 
 const [showEndScreen, setShowEndScreen] = useState({
   show: false,
-  message: "Happy coding in 2023",
+  message: "Time Expired!",
 });
 useEffect(() => {
   let interval;
