@@ -18,7 +18,7 @@ box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.4);
 padding: 1rem 0;
 
 .stop-watch {
-  font-size: 6rem;
+  font-size: 4rem;
   margin-right: 1rem;
 }
 label{
@@ -30,7 +30,7 @@ input {
   color: #282c34;
   outline: none;
   border: none;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 600;
   text-align: center;
   padding: 0rem 0.5rem;

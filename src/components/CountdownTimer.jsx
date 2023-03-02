@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Timer from "./Timer";
 import {BsFillPlayFill, BsPauseFill, BsStopFill} from "react-icons/bs";
-document.body.style.background="#282c34"
+document.body.style.background="#37799C"
 
 export default function CountdownTimer() {
     const[hours, setHours] = useState(0);
