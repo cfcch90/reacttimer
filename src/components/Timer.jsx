@@ -50,19 +50,19 @@ export default function Timer({milliseconds, seconds, minutes, hours, changeSeco
       <div className="d-flex flex-column">
         <label>hh</label>
         <input value={hours} onChange={changeHours} />
-      </div>{" "}
+      </div>{""}
       <div className="d-flex flex-column">
         <label>mm</label>
         <input value={minutes} onChange={changeMinutes} />
-      </div>{" "}
+      </div>{""}
       <div className="d-flex flex-column">
         <label>ss</label>
         <input value={seconds} onChange={changeSeconds} />
-      </div>{" "}
+      </div>{""}
       <div className="d-flex flex-column">
         <label>ms</label>
         <input value={milliseconds} />
-      </div>{" "}
+      </div>{""}
     </TimerWrapper>
   );
 }
